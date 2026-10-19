@@ -3,7 +3,7 @@ import cors from 'cors';
 import 'dotenv/config';
 import router from './routes.js';
 import { initDb } from './db.js';
-import 'express-async-errors';
+
 
 
 const app = express();
